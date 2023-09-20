@@ -1,0 +1,1 @@
+export type keywords = "github" | "python" | "gotIssues" | "script" | "RCES" | "userscript" | "issues" | "website" | "login"
