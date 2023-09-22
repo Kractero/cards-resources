@@ -12,7 +12,7 @@ While it may seem daunting at the start, with some work everything should click 
 3. [Containerise](#containers)
 4. [Python](#programming-languages)
 
-### <a name="browsers"></a>  Browsers
+### <a id="browsers" name="browsers"></a>  Browsers
 Depending on your usecase, you may not need to worry about this section. However, most card farmers should probably keep reading. 
 
 Userscripts can work on any browser, as most userscript extensions work on all major browsers. However, most card tools rely on the use of containers, which is only supported by Firefox and its derivatives. Sorry to chromiumites. [Installing Firefox is quite simple](https://www.mozilla.org/en-US/firefox/new/).
@@ -27,7 +27,7 @@ Other options include Firefox ESR, Firefox Nightly, Firefox Developer's Edition,
 
 If you don't plan on using containers, keep using whatever browser you want.
 
-### <a name="userscripts"></a>  Userscripts
+### <a id="userscripts" name="userscripts"></a>  Userscripts
 For most people, userscripts should be enough to take them to the next level. To enable the use of userscripts, you will need a userscript manager.
 
 <div class="flex gap-4 justify-center">
@@ -67,7 +67,7 @@ If after adding the extension the icon does not appear in your toolbar, you may 
 
 ![pin extension to bar](pintotoolbar.png)
 
-### <a name="containers"></a>  Containers
+### <a id="containers" name="containers"></a>  Containers
 
 Containers are not necessary for farming, as you can use any puppet manager that allows you to switch, but it definitely makes the job infinitely easier. 
 
@@ -88,7 +88,7 @@ After you have generated some container rules, you can add them by clicking the 
 
 ![pencil icon](containerise.png)
     
-### <a name="programming-languages"></a>  Programming Languages
+### <a id="programming-languages" name="programming-languages"></a>  Programming Languages
 
 Essentially just Python. Most cards tools in use now are developed using Python, although some exist in other languages. There are a lot of traps you can run into while downloading Python, especially on Windows.
 Some things to watch for include adding python to your path.

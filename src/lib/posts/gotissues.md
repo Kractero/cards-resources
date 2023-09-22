@@ -37,7 +37,7 @@ Now, continue by picking one of the two methods.
 1. [As a Script](#traditional)
 2. [In the Browser](#browser)
 
-### <a href="traditional"></a> Traditional Script
+### <a id="traditional" name="traditional"></a> Traditional Script
 There is the traditional way written by 9003, which involves running the gotIssues script and waiting for the sheet to be generated to start farming. 
 
 1. [Download gotIssues](https://github.com/jmikk/gotIssues/archive/refs/heads/master.zip)
@@ -75,7 +75,7 @@ python Sheet_Maker.py
 ```
 This will generate the html sheet, named 9003samazinglistofcards.html. Essentially how this sheet will work is that when you open it up in a browser with containerise, you can click the Link to Card button, then spam enter all the way down. Each click will open an issue choice up, answer it, then close it.
 
-### <a href="browser"></a> gi-browser
+### <a id="browser" name="browser"></a> gi-browser
 I have been on an endless hunt of making gotIssues more usable to the average farmer. It even came to the point of an unsigned executable that antiviruses would cry about. Nevertheless, you can now access and use gotIssues through the browser, and circumvent the normal pain point of waiting for it to finish by answering the issues immediately after it starts running.
 
 1. [Visit the site](https://kractero.github.io/gi-browser/)

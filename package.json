@@ -1,6 +1,6 @@
 {
-	"name": "anstcg",
-	"version": "0.0.1",
+	"name": "cards-resources",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -12,8 +12,9 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
+		"@tailwindcss/typography": "^0.5.10",
 		"@types/node": "^20.6.3",
 		"autoprefixer": "^10.4.15",
 		"mdsvex": "^0.11.0",
@@ -27,8 +28,5 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2"
 	},
-	"type": "module",
-	"dependencies": {
-		"@tailwindcss/typography": "^0.5.10"
-	}
+	"type": "module"
 }

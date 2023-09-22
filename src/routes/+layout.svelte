@@ -1,4 +1,5 @@
 <script>
+    import { base } from "$app/paths";
     import "../app.css";
 </script>
 
@@ -18,16 +19,16 @@
                 location.
             </p>
             <div class="flex-1 items-center gap-2 mt-8">
-                <a href="/" class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl">
+                <a href={`${base}/`} class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl">
                     Home
                 </a>
-                <a href="/guides/prereqs" class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl">
+                <a href={`${base}/guides/prereqs`} class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl">
                     Prerequisites
                 </a>
-                <a href="/guides" class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl">
+                <a href={`${base}/guides`} class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl">
                     Guides
                 </a>
-                <a href="/disclaimer" class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl">
+                <a href={`${base}/disclaimer`} class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl">
                     Disclaimer
                 </a>
             </div>

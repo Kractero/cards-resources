@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { PageData } from './$types';
-
+    import { base } from "$app/paths";
     export let data: PageData;
 </script>
 
@@ -10,7 +10,7 @@
 
 <div class="flex flex-wrap gap-4 max-w-5xl">
     {#each data.posts as post}
-        <a href={`/guides/${post.url}`} rel="noopener noreferrer" target="_blank">
+        <a href={`${base}/guides/${post.url}`} rel="noopener noreferrer" target="_blank">
             <div class="text-center bg-content rounded-xl p-4">
                 <h3 class="text-cardprimarytext text-2xl font-semibold mb-1">{post.title}</h3>
                 <p class="text-cardsecondarytext text-xs mb-2">{post.author}</p>
