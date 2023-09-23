@@ -13,7 +13,8 @@ export default {
         cardsecondarytext: 'rgb(var(--card-text-secondary) / <alpha-value>)',
         label: 'rgb(var(--labels) / <alpha-value>)',
         herobuttons: 'rgb(var(--herobuttons) / <alpha-value>)',
-        herobuttonshover: 'rgb(var(--herobuttons-hover) / <alpha-value>)'
+        herobuttonshover: 'rgb(var(--herobuttons-hover) / <alpha-value>)',
+        buttons: 'rgb(var(--buttons) / <alpha-value>)'
       },
       fontFamily: {
         notosans: ['Noto Sans', 'sans-serif']

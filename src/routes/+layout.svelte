@@ -1,6 +1,7 @@
 <script>
 	import ViewTransition from './navigation.svelte';
     import { base } from "$app/paths";
+	import discord from "../assets/discord-mark-blue.png"
 	import '../app.css';
 </script>
 
@@ -33,19 +34,19 @@
 				<div class="flex-1 flex items-center flex-wrap gap-2 mt-8">
 					<a
 						href={`${base}/`}
-						class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl"
+						class="p-4 bg-herobuttons hover:bg-herobuttonshover text-buttons font-semibold rounded-xl"
 					>
 						Home
 					</a>
 					<a
 						href={`${base}/guides`}
-						class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl"
+						class="p-4 bg-herobuttons hover:bg-herobuttonshover text-buttons font-semibold rounded-xl"
 					>
 						Guides
 					</a>
 					<a
 						href={`${base}/disclaimer`}
-						class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl"
+						class="p-4 bg-herobuttons hover:bg-herobuttonshover text-buttons font-semibold rounded-xl"
 					>
 						Disclaimer
 					</a>
@@ -53,9 +54,9 @@
 						href="https://discord.gg/yn5a4p9"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="p-4 bg-herobuttons hover:bg-herobuttonshover text-primary font-semibold rounded-xl"
+						class="p-4 bg-herobuttons hover:bg-herobuttonshover text-buttons font-semibold rounded-xl"
 					>
-						<img width="28" height="28" src="./discord-mark-blue.png" alt="discord" />
+						<img width="28" height="28" src={discord} alt="discord" />
 					</a>
 				</div>
 			</div>

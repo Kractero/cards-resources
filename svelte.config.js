@@ -28,13 +28,7 @@ const config = {
 				if (path === '/not-found') {
 					return;
 				}
-			},
-			entries: [
-				'/guides/[slug]',
-				'/guides/prereqs',
-				'/guides/gotissues',
-				'/guides/containers'
-			]
+			}
 		}
 	}
 };

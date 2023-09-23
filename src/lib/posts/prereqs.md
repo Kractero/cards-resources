@@ -51,29 +51,29 @@ There are four primary userscript managers, all with their tradeoffs.
     - Probably the best option for 98% of users. It's modern and works well. Sticklers for open source will need to turn away though, as Tampermonkey is closed source and frequently asks for donations.
 
     To add a script to Tampermonkey, click the Tampermonkey icon and then click create script.
-    ![add script to tampermonkey](tampermonkey.png)
+    ![add script to tampermonkey](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/tampermonkey.png)
 
 2. [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
     - Probably the best option for those who don't want to use Tampermonkey. Free and open source. Smaller userbase, and they've had some drama in the past.
 
     To add a script to Violentmonkey, click the Violentmonkey icon and then click Create a new script.
-    ![add script to Violentmonkey](violentmonkey.png)
+    ![add script to Violentmonkey](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/violentmonkey.png)
 
 3. [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
     - The old premier userscript manager before there were really any to compete with it. Should work fine, but newer scripts will be incompatible. Generally just go with a newer one.
 
     To add a script to Greasemonkey, click the Greasemonkey icon and then click the + icon.
-    ![add script to Greasemonkey](greasemonkey.png)
+    ![add script to Greasemonkey](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/greasemonkey.png)
 
 4. [Firemonkey](https://addons.mozilla.org/en-US/firefox/addon/firemonkey/)
     - A newer userscript manager with a very small userbase but an active creator. Is a bit more difficult to setup as it does not expose or use the same grants as the others. It does double as a user styles manager though.
 
     To add a script to Firemonkey, click the Firemonkey icon and then click the +JS button.
-    ![add script to Firemonkey](firemonkey.png)
+    ![add script to Firemonkey](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/firemonkey.png)
 
 If after adding the extension the icon does not appear in your toolbar, you may need to pin it. Click the puzzle icon, then click the settings cog for the extension and click pin to toolbar.
 
-![pin extension to bar](pintotoolbar.png)
+![pin extension to bar](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/pintotoolbar.png)
 
 ### <a name="containers"></a>  Containers
 
@@ -94,7 +94,7 @@ Open Firefox, then [install the Containerise addon](https://addons.mozilla.org/e
 
 After you have generated some container rules, you can add them by clicking the pencil icon, pasting them in the text area, then hitting the save icon.
 
-![pencil icon](containerise.png)
+![pencil icon](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/containerise.png)
     
 ### <a name="programming-languages"></a>  Programming Languages
 
@@ -117,12 +117,12 @@ Here are the steps on how to download Python and get it working, on Windows.
 
 3. On the open prompt, make sure you check "add python.exe to PATH" and select Install Now (as admin).
 
-![python add to path install](python1.png)
+![python add to path install](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/python1.png)
 
 4. Follow the steps to the finish.
 
 5. If you followed these steps, you should be able to open a Command Prompt, type python, and see the below.
 
-![python in command line](python2.png)
+![python in command line](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/python2.png)
 
 Congratulations, you should now be able to execute any script with Python by either clicking it or going to the directory with command prompt and doing python SCRIPT_NAME.py .
