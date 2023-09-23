@@ -1,4 +1,4 @@
-export const projects: Array<{name: string; author: string; url: string; keywords: Array<string>; description: string;}> = [
+export const projects: Array<{ name: string; author: string; url: string; keywords: Array<string>; description: string; }> = [
     {
         "name": "gotIssues",
         "author": "9003",
@@ -38,14 +38,14 @@ export const projects: Array<{name: string; author: string; url: string; keyword
         "name": "Transfer Cleanup",
         "author": "SherpDaWerp",
         "url": "https://github.com/sherpdawerp/ns-transfer-cleanup/raw/master/transfer-cleanup.user.js",
-        "keywords": [ "userscript", "transfers", "bank"],
+        "keywords": ["userscript", "transfers", "bank"],
         "description": "ns-transfer-cleanup is a userscript to help NationStates card players clean up their farms after mass-copy bank transfers."
     },
     {
         "name": "Keycode Shortcuts",
         "author": "9003",
         "url": "https://github.com/jmikk/NS/raw/master/Key%20code%20short%20cuts.user.js",
-        "keywords": [ "userscript", "keybinds"],
+        "keywords": ["userscript", "keybinds"],
         "description": "Configurable keybinds to help automate your entire NationStates workflows."
     },
     {
@@ -66,49 +66,49 @@ export const projects: Array<{name: string; author: string; url: string; keyword
         "name": "Dingy",
         "author": "9003",
         "url": "https://github.com/jmikk/Dingy/raw/main/Dingy.user.js",
-        "keywords": [ "userscript", "auctions"],
+        "keywords": ["userscript", "auctions"],
         "description": "A small tampermonkey script that dings when the open cards tab is under a minute."
     },
     {
         "name": "NS Highlight",
         "author": "9003",
         "url": "https://github.com/jmikk/Highlighter/raw/main/NShighlight.user.js",
-        "keywords": [ "userscript", "auctions", "cosmetics"],
+        "keywords": ["userscript", "auctions", "cosmetics"],
         "description": "Adds fun colors that help you see if your being outbid or out asked on the auction page and the bid/ask page."
     },
     {
         "name": "Mass Place Bids",
         "author": "Thorn1000",
         "url": "https://github.com/Thorn1000/Mass-Place-Bids",
-        "keywords": [ "python", "cli", "auctions"],
+        "keywords": ["python", "cli", "auctions"],
         "description": "A series of scripts to turn a card query into placed bids."
     },
     {
         "name": "Sitethiefs Card Utility Manager Script (SCUMS)",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/7c6a65689f76962bb1927b50abf8cbb8",
-        "keywords": [ "userscript", "packs", "deck"],
+        "keywords": ["userscript", "packs", "deck"],
         "description": "A set of configurable filters to highlight, hide, or prevent junking cards that fit the filters in decks, packs and card pages."
     },
     {
         "name": "Mass Collection Add",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/1875af79d463084b5891732d36f7367b",
-        "keywords": [ "userscript", "collection"],
+        "keywords": ["userscript", "collection"],
         "description": "Adds cards to a single collection."
     },
     {
         "name": "Auto Flip Packs",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/21d1da1fccd470536e9bbd1860f684b4",
-        "keywords": [ "userscript", "packs"],
+        "keywords": ["userscript", "packs"],
         "description": "An absolute must. This lets you skip the laborious need to manually click every card to flip them."
     },
     {
         "name": "Junk Confirmation Changer",
         "author": "Racoda",
         "url": "https://github.com/dithpri/RCES/raw/master/userscripts/miscellaneous/Junk%20Confirmation%20Changer.user.js",
-        "keywords": [ "userscript", "RCES", "packs", "collection", "junking"],
+        "keywords": ["userscript", "RCES", "packs", "collection", "junking"],
         "description": "Allows you to tweak the conditions for when a junking confirmation popup appears."
     },
     {
@@ -122,28 +122,28 @@ export const projects: Array<{name: string; author: string; url: string; keyword
         "name": "Collection Queue Add",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/8b0c178d7095e67227840ecfdcc32138",
-        "keywords": [ "userscript", "collection"],
+        "keywords": ["userscript", "collection"],
         "description": "Add queue to collection, easily adds cards to a collection"
     },
     {
         "name": "Show Card Owners",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/b3c20fe1da63f58c95fec611a4f7d6a4",
-        "keywords": [ "userscript", "collection", "owners"],
+        "keywords": ["userscript", "collection", "owners"],
         "description": "Shows if configured owners own the card."
     },
     {
         "name": "Telegram the Mains",
         "author": "9003",
         "url": "https://github.com/jmikk/TG-the-mains-2.0",
-        "keywords": [ "python", "script", "auctions", "puppets"],
+        "keywords": ["python", "script", "auctions", "puppets"],
         "description": "Makes lists of owners based on a given nations bids with the puppet spreadsheet so you TG less puppets."
     },
     {
         "name": "Container Switcher Quick Menu",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/26c115b4976a2313e265df634d214706",
-        "keywords": [ "userscript", "containers"],
+        "keywords": ["userscript", "containers"],
         "description": "Inserts a quickmenu for opening a page in another container."
     },
     {
@@ -157,7 +157,7 @@ export const projects: Array<{name: string; author: string; url: string; keyword
         "name": "Local Retriever",
         "author": "Kractero",
         "url": "https://github.com/Kractero/local-retriever",
-        "keywords": [ "python", "bank", "puppets", "cli"],
+        "keywords": ["python", "bank", "puppets", "cli"],
         "description": "Run gold retriever locally with python and get an html sheet similar to got issues."
     },
     {
@@ -199,35 +199,35 @@ export const projects: Array<{name: string; author: string; url: string; keyword
         "name": "Junk Da Junk",
         "author": "Racoda",
         "url": "https://github.com/jmikk/Card-Proccessor",
-        "keywords": [ "python", "cli", "junking"],
+        "keywords": ["python", "cli", "junking"],
         "description": "Input a puppet list, and junk da junk will generate an html sheet with easy links to junk all of the detritus from your nations."
     },
     {
         "name": "Card Preview",
         "author": "Kractero",
         "url": "https://github.com/Kractero/userscripts/blob/main/cardPreview.user.js",
-        "keywords": [ "userscript", "cosmetics"],
+        "keywords": ["userscript", "cosmetics"],
         "description": "Input a nation, and get a view of what their S1, S2, and S3 cards would look like with up-to-date data."
     },
     {
         "name": "CSB Mobile Suite",
         "author": "Kractero",
         "url": "https://github.com/Kractero/userscripts/blob/main/csb.user.js",
-        "keywords": [ "userscript", "mobile", "issues"],
+        "keywords": ["userscript", "mobile", "issues"],
         "description": "Mobile friendly keybindings for user CSB, compatible with Android, that streamlines farming on a mobile device."
     },
     {
         "name": "Alternate Auction Layout",
         "author": "Racoda",
         "url": "https://github.com/dithpri/RCES/raw/master/userscripts/auction/Alternate%20Auction%20Layout.user.js",
-        "keywords": [ "userscript", "auctions", "cosmetics"],
+        "keywords": ["userscript", "auctions", "cosmetics"],
         "description": "An alternate, wider auction layout better suited designed to minimize scrolling."
     },
     {
         "name": "Container Login Assist",
         "author": "Kractero",
         "url": "https://github.com/Kractero/container-login-assist",
-        "keywords": [ "python", "cli", "containers"],
+        "keywords": ["python", "cli", "containers"],
         "description": "After your containers are logged out, use this to generate an html sheet that can get you quickly logged back in."
     },
     {
@@ -241,35 +241,35 @@ export const projects: Array<{name: string; author: string; url: string; keyword
         "name": "Creation Autofill",
         "author": "nsdimitri",
         "url": "https://gist.github.com/nsdimitri/f0fb14372d503a519efdf3fcc7f53ca0",
-        "keywords": [ "userscript", "puppets"],
+        "keywords": ["userscript", "puppets"],
         "description": "Make founding puppets easier by autofilling most fields except name, passwords and tick boxes."
     },
     {
         "name": "Rate of Change",
         "author": "Thorn1000",
         "url": "https://github.com/Thorn1000/NS-RoC",
-        "keywords": [ "python", "cli", "stats"],
+        "keywords": ["python", "cli", "stats"],
         "description": "Script that tabulates rate of growth of top 100 NS cards players, with a configurable date range."
     },
     {
         "name": "Farming Button Stretcher",
         "author": "HNSS",
         "url": "https://github.com/andreasclaesson/HNSS/blob/main/Farming/Deck/ButtonStretcher.user.js",
-        "keywords": [ "userscript", "cosmetics"],
+        "keywords": ["userscript", "cosmetics"],
         "description": "Really simple script that stretches the Open Card button on deck"
     },
     {
         "name": "Login-Py",
         "author": "UPC",
         "url": "https://github.com/nsupc/login-py",
-        "keywords": [ "python", "cli", "puppets", "login"],
+        "keywords": ["python", "cli", "puppets", "login"],
         "description": "A very basic login script for maintaining nations on NationStates that is easy to use, keeps nations alive, and won't get you API banned."
     },
     {
         "name": "Henson",
         "author": "NotAName320",
         "url": "https://github.com/NotAName320/Henson",
-        "keywords": [ "puppets", "login" ],
+        "keywords": ["puppets", "login"],
         "description": "Henson (Heuristic and Extensible NationStates Organizer for Nations) is a puppet manager for NationStates. "
     },
     {
@@ -290,63 +290,63 @@ export const projects: Array<{name: string; author: string; url: string; keyword
         "name": "Reload Card Page after Login",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/d2a791c9bb6c670482ccbd0db1fdbc47",
-        "keywords": [ "userscript", "navigation"],
+        "keywords": ["userscript", "navigation"],
         "description": "Reopen card page after login, works best combined with a login script"
     },
     {
         "name": "Link Card Deck",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/9c35747f1d5979dfc71ddd4bbee8d744",
-        "keywords": [ "userscript", "navigation"],
+        "keywords": ["userscript", "navigation"],
         "description": "Adds card deck link to nation urls"
     },
     {
         "name": "Collection Add",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/7f38c15f24a648fc27e5d7f534368842",
-        "keywords": [ "userscript", "collection", "keybinds"],
+        "keywords": ["userscript", "collection", "keybinds"],
         "description": "Adds card to the given collection by pressing a keybind on the card collection page."
     },
     {
         "name": "Show Owners on More Pages",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/4fcefb701dd976ac55ccff23e30f7ff5",
-        "keywords": [ "userscript", "navigation"],
+        "keywords": ["userscript", "navigation"],
         "description": "Adds owner counts to the value/bids/asks/auctions page"
     },
     {
         "name": "Count Badges",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/936d3fab6d41eaba3fc043c8b13d2de9",
-        "keywords": [ "userscript", "stats"],
+        "keywords": ["userscript", "stats"],
         "description": "Count badges and display the counts."
     },
     {
         "name": "NsEnhancedDeckUx",
         "author": "Racoda",
-        "url": "https://github.com/dithpri/RCES/blob/NsEnhancedDeckUx/userscripts/general/NsEnhancedDeckUx.user.js", 
-        "keywords": [ "userscript", "RCES", "cosmetic", "deck"],
+        "url": "https://github.com/dithpri/RCES/blob/NsEnhancedDeckUx/userscripts/general/NsEnhancedDeckUx.user.js",
+        "keywords": ["userscript", "RCES", "cosmetic", "deck"],
         "description": "An enhanced deck list experience, with parametric junking, non-matching bid highlighting, and more!"
     },
     {
         "name": "NSDeckPagetweaks",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/5ea13e37be0e3d710b74b4a27497da92",
-        "keywords": [ "userscript", "deck"],
+        "keywords": ["userscript", "deck"],
         "description": "Tweaks for the Card Deck page"
     },
     {
         "name": "The Price is Right",
         "author": "9003",
         "url": "https://github.com/jmikk/The-Price-is-right-",
-        "keywords": [ "python", "cli"],
+        "keywords": ["python", "cli"],
         "description": "Have you ever wanted to know if you had a bid just a little off? What about an Ask thats just a little to high?"
     },
     {
-        "name": "NSGiftPageTweaks", 
+        "name": "NSGiftPageTweaks",
         "author": "Sitethief",
         "url": "https://gist.github.com/Sitethief/4616fdf928ccc9a28ffbb1ac636afcfe",
-        "keywords": [ "userscript", "gifting"],
+        "keywords": ["userscript", "gifting"],
         "description": "Tweaks for the Gift page"
     },
     {
@@ -373,7 +373,7 @@ export const projects: Array<{name: string; author: string; url: string; keyword
 ]
 
 export const keywords = () => {
-    let frequency: {[key: string]: number} = {}
+    let frequency: { [key: string]: number } = {}
 
     projects.forEach(project => {
         project.keywords.forEach(keyword => {
