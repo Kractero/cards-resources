@@ -157,7 +157,7 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "name": "Local Retriever",
         "author": "Kractero",
         "url": "https://github.com/Kractero/local-retriever",
-        "keywords": ["python", "bank", "puppets", "cli"],
+        "keywords": ["python", "bank", "puppets", "cli", "sheet"],
         "description": "Run gold retriever locally with python and get an html sheet similar to got issues."
     },
     {
@@ -199,7 +199,7 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "name": "Junk Da Junk",
         "author": "Racoda",
         "url": "https://github.com/jmikk/Card-Proccessor",
-        "keywords": ["python", "cli", "junking"],
+        "keywords": ["python", "cli", "junking", "sheet"],
         "description": "Input a puppet list, and junk da junk will generate an html sheet with easy links to junk all of the detritus from your nations."
     },
     {
@@ -227,7 +227,7 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "name": "Container Login Assist",
         "author": "Kractero",
         "url": "https://github.com/Kractero/container-login-assist",
-        "keywords": ["python", "cli", "containers"],
+        "keywords": ["python", "cli", "containers", "sheet"],
         "description": "After your containers are logged out, use this to generate an html sheet that can get you quickly logged back in."
     },
     {
@@ -241,7 +241,7 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "name": "Creation Autofill",
         "author": "nsdimitri",
         "url": "https://gist.github.com/nsdimitri/f0fb14372d503a519efdf3fcc7f53ca0",
-        "keywords": ["userscript", "puppets"],
+        "keywords": ["userscript", "puppets", "creation"],
         "description": "Make founding puppets easier by autofilling most fields except name, passwords and tick boxes."
     },
     {
@@ -364,11 +364,88 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "description": "Hide show all button and just present all active bids and asks."
     },
     {
+        "name": "Creation Assistant",
+        "author": "Kractero",
+        "url": "https://github.com/Kractero/cards-utilities/tree/main/creation_assistant",
+        "keywords": ["userscript", "puppets", "keybinds", "python", "sheet", "creation"],
+        "description": "Userscript and sheet generator for quickly founding puppets."
+    },
+    {
         "name": "Post-Creation Puppet Assistant",
         "author": "Kractero",
         "url": "https://raw.githubusercontent.com/Kractero/userscripts/main/quickPuppetMover.user.js",
-        "keywords": ["userscript", "puppets", "keybinds"],
+        "keywords": ["userscript", "puppets", "keybinds", "creation"],
         "description": "Hotkeys to move a puppet to a configurable region and set its flag."
+    },
+    {
+        "name": "Steak Rarities",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/decoration/steak_rarities.user.js",
+        "keywords": ["RCES", "userscript", "cosmetics"],
+        "description": "Would you like to know what kind of steak your card is?"
+    },
+    {
+        "name": "Steak Rarities",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/decoration/steak_rarities.user.js",
+        "keywords": ["RCES", "userscript", "cosmetics"],
+        "description": "Would you like to know what kind of steak your card is?"
+    },
+    {
+        "name": "Steak Rarities",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/decoration/steak_rarities.user.js",
+        "keywords": ["RCES", "userscript", "cosmetics"],
+        "description": "Would you like to know what kind of steak your card is?"
+    },
+    {
+        "name": "Zoomer Nation Creator",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/decoration/zoomer_nation_creator.user.js",
+        "keywords": ["RCES", "userscript", "RCES", "creation"],
+        "description": "The initial nation question set, but for zoomers."
+    },
+    {
+        "name": "InvaderNS",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/decoration/invader.user.js",
+        "keywords": ["RCES", "userscript", "cosmetic"],
+        "description": "The hidden NationStates Invader theme. For real GPers™."
+    },
+    {
+        "name": "Cards/Icon Deck Page Link",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/miscellaneous/cards-icon.user.js",
+        "keywords": ["RCES", "userscript", "navigation"],
+        "description": "Depending on NS theme, adds either a cards icon to the top banner or a link in the menu. Both the link and icon redirect to the deck page.",
+    },
+    {
+        "name": "Container Owner Links",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/miscellaneous/Container%20Owner%20Links.user.js",
+        "keywords": ["RCES", "userscript", "containers", "navigation", "owners"],
+        "description": "Adds nifty links next to nations on the card owners page. Clicking on them will copy the appropriate container link (for you to send when requesting cards from others)."
+    },
+    {
+        "name": "Better Card Page Titles",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/miscellaneous/Better%20Card%20Page%20Titles.user.js",
+        "keywords": ["RCES", "navigation", "cosmetics"],
+        "description": 'Tweaks the titles on card pages to be more descriptive instead of the default "NationStates | Trading Cards".'
+    },
+    {
+        "name": "Localid Synchronizer",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/auction/localid%20Synchronizer.user.js",
+        "keywords": ["RCES", "navigation", "puppets", "auctions"],
+        "description": "Synchronizes the localid across card pages. In short, you don't have to reload the auction page anymore to avoid those security errors when you have multiple tabs open."
+    },
+    {
+        "name": "Owner Report",
+        "author": "Racoda",
+        "url": "https://github.com/dithpri/RCES/blob/master/owner_report/owner_report.py",
+        "keywords": ["RCES", "python", "cli", "puppets", "owners"],
+        "description": "A python script that reads a list of cards and/or a list of puppets and returns # of owners, # of copies and who the owners are for each card. If provided with a puppet list to check, it check all their cards. Cards in cards.txt, puppets in puppets.txt."
     }
 ]
 
