@@ -135,3 +135,9 @@ Cons
 
 ## Closing Notes
 If this helped gift me a leg.
+
+<style>
+	pre {
+		white-space: pre-wrap;
+	}
+</style>

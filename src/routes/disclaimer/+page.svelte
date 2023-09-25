@@ -1,4 +1,4 @@
-<div class="max-w-5xl flex flex-col gap-4">
+<div class="max-w-lg lg:max-w-5xl flex flex-col gap-4">
 	<p>TL;DR: READ THIS, read the rules ask for help if you need help understanding scripts,</p>
 
 	<p>YOU A HUMAN MUST PUSH A BUTTON TO DO AN EVENT.</p>

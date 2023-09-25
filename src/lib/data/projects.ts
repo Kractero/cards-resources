@@ -169,7 +169,7 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
     },
     {
         "name": "Puppet Reporting",
-        "author": "Racoda",
+        "author": "9003",
         "url": "https://docs.google.com/forms/d/16t4mlYuSU5p0U9hVkvzKMqP1GRnpdDV7nLNLA9WdFTs/viewform?chromeless=1&edit_requested=true",
         "keywords": ["puppets", "owners"],
         "description": "Location to report your puppets, and integrates to other tools that utilize puppets and their owners."
@@ -197,7 +197,7 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
     },
     {
         "name": "Junk Da Junk",
-        "author": "Racoda",
+        "author": "9003",
         "url": "https://github.com/jmikk/Card-Proccessor",
         "keywords": ["python", "cli", "junking", "sheet"],
         "description": "Input a puppet list, and junk da junk will generate an html sheet with easy links to junk all of the detritus from your nations."
@@ -432,6 +432,13 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "url": "https://github.com/dithpri/RCES/blob/master/owner_report/owner_report.py",
         "keywords": ["RCES", "python", "cli", "puppets", "owners"],
         "description": "A python script that reads a list of cards and/or a list of puppets and returns # of owners, # of copies and who the owners are for each card. If provided with a puppet list to check, it check all their cards. Cards in cards.txt, puppets in puppets.txt."
+    },
+    {
+        "name": "9003 Hates Change",
+        "author": "9003",
+        "url": "https://github.com/jmikk/9003-Hates-Change",
+        "keywords": ["userscript", "cosmetics"],
+        "description": "Changes any SC badges before 440 to the old ones."
     }
 ]
 

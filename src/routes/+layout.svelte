@@ -13,7 +13,7 @@
 
 <div>
 	<ViewTransition />
-	<h1 class="text-5xl font-bold tracking-tighter my-8">Resources for Cards</h1>
+	<h1 class="text-5xl font-bold tracking-tighter my-8 text-center lg:text-left">Resources for Cards</h1>
 
 	<div class=" my-8 max-w-5xl flex flex-col items-center">
 		<div class="flex flex-col items-center max-w-lg lg:max-w-none lg:flex-row gap-8 lg:items-start">
