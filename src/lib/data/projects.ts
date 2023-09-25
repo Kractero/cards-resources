@@ -385,20 +385,6 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "description": "Would you like to know what kind of steak your card is?"
     },
     {
-        "name": "Steak Rarities",
-        "author": "Racoda",
-        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/decoration/steak_rarities.user.js",
-        "keywords": ["RCES", "userscript", "cosmetics"],
-        "description": "Would you like to know what kind of steak your card is?"
-    },
-    {
-        "name": "Steak Rarities",
-        "author": "Racoda",
-        "url": "https://github.com/dithpri/RCES/raw/master/userscripts/decoration/steak_rarities.user.js",
-        "keywords": ["RCES", "userscript", "cosmetics"],
-        "description": "Would you like to know what kind of steak your card is?"
-    },
-    {
         "name": "Zoomer Nation Creator",
         "author": "Racoda",
         "url": "https://github.com/dithpri/RCES/raw/master/userscripts/decoration/zoomer_nation_creator.user.js",
