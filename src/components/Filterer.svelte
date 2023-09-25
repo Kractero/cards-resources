@@ -8,7 +8,7 @@
 		on:click={(e) => {
 			filter.set('All');
 		}}
-		class={`rounded-xl p-2 ${$filter === 'All' ? 'bg-tertiary' : 'bg-content'}`}
+		class={`rounded-xl p-2 ${!$filter || $filter === 'All' ? 'bg-tertiary' : 'bg-content'}`}
 	>
 		<p class="text-label">All</p>
 	</button>

@@ -44,7 +44,7 @@
 <div class="max-w-5xl flex flex-wrap justify-center gap-4 my-8">
 	{#each projects
 		.filter((project) => {
-			if ($filter !== 'All') {
+			if ($filter && $filter !== 'All') {
 				return project.keywords.includes($filter);
 			} else {
 				return project;

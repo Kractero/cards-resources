@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { searchAuthor } from '../store';
+	import { filter, searchAuthor } from '../store';
 	import newTab from '../assets/innewtab.png';
 	export let name: string;
 	export let author: string;
@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="clienthide max-w-xs h-min flex flex-col justify-center items-center bg-content p-4 rounded-xl gap-4 hover:shadow-lg"
+	class={`${$filter === "" ? "clienthide" : ""} max-w-xs h-min flex flex-col justify-center items-center bg-content p-4 rounded-xl gap-4 hover:shadow-lg`}
 >
 	<div class="text-center flex flex-col items-center">
 		<a href={url} rel="noopener noreferrer" target="_blank">
