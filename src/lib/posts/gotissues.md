@@ -30,7 +30,7 @@ Before any of that, install these two userscripts.
 })();
 ```
 
-2. [NSIssueCompactorRand](https://raw.githubusercontent.com/jmikk/gotIssues/master/NsIssueCompactorRand.js)
+2. <a href="https://raw.githubusercontent.com/jmikk/gotIssues/master/NsIssueCompactorRand.js" rel="noopener noreferrer" target="_blank">NSIssueCompactorRand</a>
 
 Now, continue by picking one of the two methods.
 
@@ -40,7 +40,7 @@ Now, continue by picking one of the two methods.
 ### <a id="traditional" name="traditional"></a> Traditional Script
 There is the traditional way written by 9003, which involves running the gotIssues script and waiting for the sheet to be generated to start farming. 
 
-1. [Download gotIssues](https://github.com/jmikk/gotIssues/archive/refs/heads/master.zip)
+1. <a href="https://github.com/jmikk/gotIssues/archive/refs/heads/master.zip" rel="noopener noreferrer" target="_blank">Download gotIssues</a>
 2. Navigate to the directory it is installed in.
 2. gotIssues expects a file named puppet.csv to be fully configured with your nations inside. If you open it in your preferred editor, you can see some samples. It is formatted as
 ```
@@ -78,7 +78,7 @@ This will generate the html sheet, named 9003samazinglistofcards.html. Essential
 ### <a id="browser" name="browser"></a> gi-browser
 I have been on an endless hunt of making gotIssues more usable to the average farmer. It even came to the point of an unsigned executable that antiviruses would cry about. Nevertheless, you can now access and use gotIssues through the browser, and circumvent the normal pain point of waiting for it to finish by answering the issues immediately after it starts running.
 
-1. [Visit the site](https://kractero.github.io/gi-browser/)
+1. <a href="https://kractero.github.io/gi-browser/" rel="noopener noreferrer" target="_blank">Visit the site.</a> 
 
 2. Fill in your main nation's name. This is required so NationStates knows who is making the requests.
 

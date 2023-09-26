@@ -15,7 +15,7 @@ While it may seem daunting at the start, with some work everything should click 
 ### <a name="browsers"></a>  Browsers
 Depending on your usecase, you may not need to worry about this section. However, most card farmers should probably keep reading. 
 
-Userscripts can work on any browser, as most userscript extensions work on all major browsers. However, most card tools rely on the use of containers, which is only supported by Firefox and its derivatives. Sorry to chromiumites. [Installing Firefox is quite simple](https://www.mozilla.org/en-US/firefox/new/).
+Userscripts can work on any browser, as most userscript extensions work on all major browsers. However, most card tools rely on the use of containers, which is only supported by Firefox and its derivatives. Sorry to chromiumites. <a href="https://www.mozilla.org/en-US/firefox/new/" rel="noopener noreferrer" target="_blank">Installing Firefox is quite simple.</a>
 
 <div class="flex gap-4 justify-center">
     <a href="https://www.mozilla.org/en-US/firefox/new/" rel="noopener noreferrer" target="_blank">
@@ -47,25 +47,25 @@ For most people, userscripts should be enough to take them to the next level. To
 
 There are four primary userscript managers, all with their tradeoffs.
 
-1. [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+1. <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/" rel="noopener noreferrer" target="_blank">TamperMonkey</a>
     - Probably the best option for 98% of users. It's modern and works well. Sticklers for open source will need to turn away though, as Tampermonkey is closed source and frequently asks for donations.
 
     To add a script to Tampermonkey, click the Tampermonkey icon and then click create script.
     ![add script to tampermonkey](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/tampermonkey.png)
 
-2. [Violentmonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+2. <a href="https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/" rel="noopener noreferrer" target="_blank">ViolentMonkey</a>
     - Probably the best option for those who don't want to use Tampermonkey. Free and open source. Smaller userbase, and they've had some drama in the past.
 
     To add a script to Violentmonkey, click the Violentmonkey icon and then click Create a new script.
     ![add script to Violentmonkey](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/violentmonkey.png)
 
-3. [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
+3. <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/" rel="noopener noreferrer" target="_blank">GreaseMonkey</a>
     - The old premier userscript manager before there were really any to compete with it. Should work fine, but newer scripts will be incompatible. Generally just go with a newer one.
 
     To add a script to Greasemonkey, click the Greasemonkey icon and then click the + icon.
     ![add script to Greasemonkey](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/greasemonkey.png)
 
-4. [Firemonkey](https://addons.mozilla.org/en-US/firefox/addon/firemonkey/)
+4. <a href="https://addons.mozilla.org/en-US/firefox/addon/firemonkey/" rel="noopener noreferrer" target="_blank">FireMonkey</a> 
     - A newer userscript manager with a very small userbase but an active creator. Is a bit more difficult to setup as it does not expose or use the same grants as the others. It does double as a user styles manager though.
 
     To add a script to Firemonkey, click the Firemonkey icon and then click the +JS button.
@@ -90,7 +90,7 @@ As mentioned [above](#browsers), the only browsers that supports this are Firefo
     </a>
 </div>
 
-Open Firefox, then [install the Containerise addon](https://addons.mozilla.org/en-US/firefox/addon/containerise/).
+Open Firefox, then <a href="https://addons.mozilla.org/en-US/firefox/addon/containerise/" rel="noopener noreferrer" target="_blank">Install the Containerise addon.</a>
 
 After you have generated some container rules, you can add them by clicking the pencil icon, pasting them in the text area, then hitting the save icon.
 
@@ -111,7 +111,7 @@ Of course, if you use Linux, you wouldn't have that problem!
 
 Here are the steps on how to download Python and get it working, on Windows.
 
-1. Visit [the Python website](https://www.python.org/downloads/) and click Download Python 3.11.5 (version at the time of writing, yours might be different).
+1. Visit <a href="https://www.python.org/downloads/" rel="noopener noreferrer" target="_blank">the Python website</a> and click Download Python 3.11.5 (version at the time of writing, yours might be different).
 
 2. Launch the executable. 
 
