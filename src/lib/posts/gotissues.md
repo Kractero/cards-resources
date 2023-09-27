@@ -51,7 +51,7 @@ Fill this out so gotIssues knows which nations to gather issues for.
 
 3. While you might be tempted to just click issues.py with your mouse, I find this way causes issues and just feels way less reliabe than actually doing it through the terminal. Assuming you are on windows, hit the Windows key, then type in Command Prompt and open it.
 4. From your explorer, find where you downloaded, and then go to the address bar and double click it. The address bar is below:
-![address bar](/addressbar.png) Copy it, and then in the command prompt window, type
+![address bar](https://raw.githubusercontent.com/Kractero/cards-resources/main/static/addressbar.png) Copy it, and then in the command prompt window, type
 ```
 cd C:\USER\YOURGOTISSUESLOCATION
 ```
