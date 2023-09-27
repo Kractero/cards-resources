@@ -439,6 +439,13 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "url": "https://github.com/jmikk/9003-Hates-Change",
         "keywords": ["userscript", "cosmetics"],
         "description": "Changes any SC badges before 440 to the old ones."
+    },
+    {
+        "name": "GiveAway Cog",
+        "author": "9003",
+        "url": "https://github.com/jmikk/prAPI/tree/main/GiveAway",
+        "keywords": ["cog", "redbot V3","discord"],
+        "description": "A redbot V3 Cog allowing for giveaways open to a role."
     }
 ]
 
