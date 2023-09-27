@@ -451,14 +451,14 @@ export const projects: Array<{ name: string; author: string; url: string; keywor
         "name": "Regional Nation Cog (RN)",
         "author": "9003",
         "url": "https://github.com/jmikk/prAPI/tree/main/RN",
-        "keywords": ["cog", "redbot V3","discord","admin"]
+        "keywords": ["cog", "redbot V3","discord","admin"],
         "description": "A redbot V3 Cog allowing for a regional nation to be controlled using discord with out shring passwords."
     },
     {
         "name": "Rota Fortunae Discord Issues",
         "author": "9003",
         "url": "https://github.com/jmikk/prAPI/tree/main/issues",
-        "keywords": ["cog", "redbot V3","discord","admin","issues"]
+        "keywords": ["cog", "redbot V3","discord","admin","issues"],
         "description": "A redbot V3 Cog allowing for a a nation to be set up to post an issue every 12 hours and have the community vote on it."
     }
 ]
