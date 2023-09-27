@@ -84,10 +84,10 @@ I have been on an endless hunt of making gotIssues more usable to the average fa
 
 3. If all your puppets have the same password, put it into the Shared Password field. Then, list all your puppets in the textarea following this example:
 ```
-nation name,
-Kazakhstan,
-Puppet1,
-Farmers,
+nation name
+Kazakhstan
+Puppet1
+Farmers
 Norway
 ```
 
